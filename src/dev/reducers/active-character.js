@@ -1,0 +1,1 @@
+export default (state = null, action) => action.type === 'CHARACTER_SELECTED' ? action.payload : state;

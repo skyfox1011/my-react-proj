@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.icon {
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.top-gutter-right {
+  margin-top: 5em;
+}
+
+.top-gutter {
+  margin-top: 6em;
+}
+
+.bottom-gutter-1 {
+  margin-bottom: 1em;
+}
+
+#sidebar.affix {
+  position: fixed;
+  top:6em;
+  width:25%;
+  height: auto;
+}
+
+.frame-data-drop-down {
+  cursor: pointer;
+}
