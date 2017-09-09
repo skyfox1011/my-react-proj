@@ -1,7 +1,8 @@
-React with Bootstrap Demo containing:
-1. React's single page navigation
-2. React's Search event
-3. Boostrap Responsive design
+React/Redux with Bootstrap Demo containing:
+1. React's Redux single page navigation
+2. React's Redux Search text event
+3. React's State in expand and collapse text event
+4. Boostrap Responsive design for small, medium, and desktop devices.
 
 To view my work:
 1) Install Visual Studio Code
