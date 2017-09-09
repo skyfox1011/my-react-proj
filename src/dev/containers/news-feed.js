@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import Body from './body';
 
 class NewsFeed extends Component {
     getMedia(item) {
         if (item.image) {
             return (
                 <div className="row">
-                    <img className="col-sm-12 col-xs-12" src={item.image} />
+                    <img  alt={item.image} className="col-sm-12 col-xs-12" src={item.image} />
                 </div>
             );
         }
         else if (item.vid) {
             return (
                 <div className="embed-responsive embed-responsive-4by3">
-                    <iframe className="embed-responsive-item" src={item.vid}></iframe>
+                    <iframe title={item.vid} className="embed-responsive-item" src={item.vid}></iframe>
                 </div>
             );
         }
@@ -34,7 +35,7 @@ class NewsFeed extends Component {
                             <div className="panel-body">
                                 <h3 className="text-center">{item.subject}</h3>
                                 {this.getMedia(item)}
-                                {item.body}
+                                <Body text={item.body} />
                             </div>
                         </div>
                     </div>

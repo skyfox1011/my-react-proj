@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import SearchInput from './search-input';
 
 import {bindActionCreators} from 'redux';
 import {filterMoves, getCorrectedList} from '../actions/index';
