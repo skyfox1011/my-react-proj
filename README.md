@@ -13,3 +13,4 @@ To view my work:
 6) type "npm install". (Note you need to install nodejs before doing this step)
 7) type "npm start". This will open the project up on IE
 8) If you would like to view it on specific browser, open up that browser and go to http://localhost:3000/
+9) All my work is done at /src/dev
